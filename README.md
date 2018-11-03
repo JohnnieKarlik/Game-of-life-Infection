@@ -15,9 +15,11 @@ python implemantation of Conway’s Game of Life - https://en.wikipedia.org/wiki
 1. clone reposetory
 
 run:
+
 python game_of_life.py --width=<board width> --height=<board height> --infect_after=<infect after> --max_generations=<max generations> --seed=<seed>
 
 for example:
+
 python game_of_life.py --width=3 --height=3 --infect_after=3 --max_generations=6 --seed="0 0 0 1 1 1 0 0 0"
 
 0 0 0 1 1 1 0 0 0
